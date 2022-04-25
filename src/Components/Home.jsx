@@ -1,17 +1,18 @@
 import React from 'react';
-import home from "../images/home.svg";
+import home from "../images/home.png";
 import Common from './Common';
 
 const Home = () => {
     return (
         <>
             <Common 
-                name='Grow your business with' 
+                name='Come save animals with ' 
                 imgsrc={home} 
                 isCompName={true}
-                compName="Company Name"
+                compName="Pawsome Foundation"
                 visit='/services' 
-                btnname="Get Started" 
+                btnname="Our Work" 
+                text='It takes nothing away from a human to be kind to an animal.'
             />
         </>
     )

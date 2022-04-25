@@ -23,7 +23,7 @@ const Contact = () => {
     const formSubmitHandle = (e) => {
         e.preventDefault();
         // message can be saved to db or email can be sent from here!
-        
+        console.log(data)
         swal("Sent!", "Message Sent Successfully!", "success");
     }
 
@@ -38,7 +38,7 @@ const Contact = () => {
             <form onSubmit={formSubmitHandle}>
               <div className="mb-3">
                 <label htmlFor="exampleFormControlInput1" className="form-label">
-                  FullName
+                  Full Name
                 </label>
                 <input
                   type="text"
@@ -50,7 +50,7 @@ const Contact = () => {
                   placeholder="Enter your name"
                 />
                 <label htmlFor="exampleFormControlInput1" className="form-label">
-                  Email address
+                  Email Address
                 </label>
                 <input
                   type="email"
@@ -64,7 +64,7 @@ const Contact = () => {
               </div>
               <div className="mb-3">
                 <label htmlFor="exampleFormControlTextarea1" className="form-label">
-                  Example textarea
+                  Comments
                 </label>
                 <textarea
                   className="form-control"

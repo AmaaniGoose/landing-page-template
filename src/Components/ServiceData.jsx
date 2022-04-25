@@ -1,6 +1,7 @@
 import android from "../images/android.jpg";
 import web from "../images/web.jpg";
 // import digital from "../images/digital.jpg";
+import c1 from "../images/c1.jpg";
 import marketing from "../images/marketing.jpg";
 import software from "../images/software.jpg";
 import fullstack from "../images/fullstack.jpg";
@@ -8,27 +9,27 @@ import fullstack from "../images/fullstack.jpg";
 const ServiceData = [
     {
         imgsrc: web,
-        title: "Web Development"
+        title: "Animal Rescue"
     },
     {
-        imgsrc: android,
-        title: "Android Development"
+        imgsrc: c1,
+        title: "Animal Advocacy"
     },
     {
         imgsrc: software,
-        title: "Software Development"
+        title: "Education and Awareness"
     },
     {
         imgsrc: marketing,
-        title: "Digital Marketing"
+        title: "Fundraising and Charity"
     },
     {
         imgsrc: fullstack,
-        title: "Full Stack Development"
+        title: "Volunteering"
     },
     {
-        imgsrc: marketing,
-        title: "Marketing"
+        imgsrc: android,
+        title: "Networking"
     }
 ];
 

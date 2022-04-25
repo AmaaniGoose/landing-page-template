@@ -1,5 +1,5 @@
 import React from 'react'
-import about from "../images/about.webp";
+//import about from "../images/about.webp";
 import Common from './Common'
 
 const About = () => {

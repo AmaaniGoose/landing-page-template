@@ -7,7 +7,7 @@ const About = () => {
         <>
             <Common 
                 name='Welcome to the About Page' 
-                imgsrc={about} 
+                //imgsrc={about} 
                 visit='/contact' 
                 btnname="Contact Now" 
                 text="Humanity's true moral test, its fundamental test...consists of its attitude towards those who are at its 

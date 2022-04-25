@@ -17,12 +17,14 @@ const Common = ({
                 <div className="row">
                     <div className="col-10 mx-auto">
                         <div className="row">
-                            <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
+                            <div className="col-md-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex justify-content-center flex-column">
+                            <br/><br/>
                                 <h1> 
                                      {name}
                                      {isCompName ? <strong className="brand-name"> {compName}</strong> : ""}
                                     
                                 </h1>
+            
                                 <h2 className="my-3">
                                     {text}
                                 </h2>
@@ -33,7 +35,7 @@ const Common = ({
                                 </div>
                             </div>
 
-                            <div className="col-lg-6 order-1 order-lg-2 header-image">
+                            <div className="col-lg-6 order-2 order-lg-1 header-image">
                                 <img src={imgsrc} className="img-fluid animated" alt=""/>
                             </div>
                         </div>
